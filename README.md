@@ -23,13 +23,15 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_account_tag_code](account_account_tag_code/) | 16.0.1.0.0 |  | Add a code field to the accounts tags
 [account_asset_batch_compute](account_asset_batch_compute/) | 16.0.1.0.0 |  | Add the possibility to compute assets in batch
-[account_asset_management](account_asset_management/) | 16.0.1.2.3 |  | Assets Management
+[account_asset_management](account_asset_management/) | 16.0.1.2.4 |  | Assets Management
+[account_asset_number](account_asset_number/) | 16.0.1.0.0 |  | Assets Number
+[account_asset_transfer](account_asset_transfer/) | 16.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Asset Transfer from AUC to Asset
 [account_cash_deposit](account_cash_deposit/) | 16.0.1.2.0 |  | Manage cash deposits and cash orders
-[account_chart_update](account_chart_update/) | 16.0.2.0.3 |  | Wizard to update a company's account chart from a template
+[account_chart_update](account_chart_update/) | 16.0.2.0.4 |  | Wizard to update a company's account chart from a template
 [account_chart_update_l10n_eu_oss_oca](account_chart_update_l10n_eu_oss_oca/) | 16.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Account Chart update OSS OCA
 [account_fiscal_month](account_fiscal_month/) | 16.0.1.1.0 |  | Provide a fiscal month date range type
 [account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 16.0.1.1.0 |  | Check VAT on invoice validation
-[account_fiscal_year](account_fiscal_year/) | 16.0.1.1.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create Account Fiscal Year
+[account_fiscal_year](account_fiscal_year/) | 16.0.1.2.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create Account Fiscal Year
 [account_fiscal_year_auto_create](account_fiscal_year_auto_create/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Automatically create new fiscal years, based on the datas of the last fiscal years
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 16.0.1.1.0 |  | Account Invoice Constraint Chronology
 [account_journal_general_sequence](account_journal_general_sequence/) | 16.0.2.0.2 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Add configurable sequence to account moves, per journal
@@ -42,6 +44,7 @@ addon | version | maintainers | summary
 [account_move_fiscal_year](account_move_fiscal_year/) | 16.0.1.0.0 |  | Display the fiscal year on journal entries/item
 [account_move_line_check_number](account_move_line_check_number/) | 16.0.1.0.1 | [![ps-tubtim](https://github.com/ps-tubtim.png?size=30px)](https://github.com/ps-tubtim) | Add the check number in the journal items
 [account_move_line_purchase_info](account_move_line_purchase_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
+[account_move_line_repair_info](account_move_line_repair_info/) | 16.0.1.0.0 |  | Introduces the repair order to the journal items
 [account_move_line_sale_info](account_move_line_sale_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
 [account_move_line_tax_editable](account_move_line_tax_editable/) | 16.0.1.0.1 |  | Allows to edit taxes on non-posted account move lines
 [account_move_name_sequence](account_move_name_sequence/) | 16.0.1.1.12 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | Generate journal entry number from sequence
@@ -50,10 +53,12 @@ addon | version | maintainers | summary
 [account_move_template](account_move_template/) | 16.0.1.0.1 |  | Templates for recurring Journal Entries
 [account_netting](account_netting/) | 16.0.1.0.0 |  | Compensate AR/AP accounts from the same partner
 [account_partner_required](account_partner_required/) | 16.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds an option 'partner policy' on accounts
+[account_sequence_option](account_sequence_option/) | 16.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Manage sequence options for account.move, i.e., invoice, bill, entry
 [account_spread_cost_revenue](account_spread_cost_revenue/) | 16.0.1.0.1 |  | Spread costs and revenues over a custom period
 [account_template_active](account_template_active/) | 16.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow to disable / enable account template items (tax, fiscal position, account)
 [account_usability](account_usability/) | 16.0.1.0.3 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Adds missing menu entries for Account module and adds the option to enable Saxon Accounting
 [base_vat_optional_vies](base_vat_optional_vies/) | 16.0.1.1.0 |  | Optional validation of VAT via VIES
+[stock_account_anglo_saxon_cogs_kit](stock_account_anglo_saxon_cogs_kit/) | 16.0.2.0.0 | [![MarinaAForgeFlow](https://github.com/MarinaAForgeFlow.png?size=30px)](https://github.com/MarinaAForgeFlow) [![AaronHForgeFlow](https://github.com/AaronHForgeFlow.png?size=30px)](https://github.com/AaronHForgeFlow) | Stock Account Anglo Saxon COGS Kit
 
 [//]: # (end addons)
 
